@@ -1,7 +1,7 @@
 import openai
 
 # Initialize the OpenAI API client
-openai.api_key = 'AIzaSyDQaav-KRsuT8bwQy7d0scxDmY7uypVApo'
+openai.api_key = ''
 
 def chat_with_gemini(prompt):
     response = openai.Completion.create(
